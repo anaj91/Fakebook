@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    background: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.body{
+    background-image: linear-gradient(to right, #DAE2F8 0%, #D6A4A4  50%, #DAE2F8  100%);
+    font-family: luminari;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    background: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.button{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid black 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button2:hover {
+  box-shadow: 0 0 3px 2px #314755;
+  background-color: #26a0da;
+  transition-duration: 0.5s;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    border: solid 1px #26a0da;
+}
+
+.img2:hover{
+     box-shadow: 0 0 5px 2px #314755;
+     cursor:pointer;
+     transition: 0.5s;
+}
+
+strong{
+    text-transform: capitalize;
+    background: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
